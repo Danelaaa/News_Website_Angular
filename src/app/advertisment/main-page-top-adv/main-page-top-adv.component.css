@@ -1,0 +1,31 @@
+.main_top_adv{
+    width: 100%;
+    height: auto;
+    border-bottom: solid rgb(114, 114, 114) 0.1px;
+    border-top: solid rgb(114, 114, 114) 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+}
+.div{
+    width: 94%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div a{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.div img{
+    width: 100%;
+    height: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

@@ -1,0 +1,22 @@
+<h1>ახალი ამბები</h1>
+<main>
+    <div class="main_div">    
+        <div class="main_div_left"> 
+            <div class="news" *ngFor="let item of News">
+                <a routerLink="{{item.link}}">
+                    <img src="{{item.img}}" alt="">
+                    <span>{{item.time}} წუთის წინ</span>
+                    <p>{{item.title}}</p>
+                </a>
+            </div>
+        </div>  
+        <div class="main_div_right">
+           <h3>უახლესი ამბები</h3>
+           <app-last-news class="right_news"></app-last-news>
+        </div>
+    </div>
+</main>
+
+    
+
+

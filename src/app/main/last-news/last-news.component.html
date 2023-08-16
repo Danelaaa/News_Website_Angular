@@ -1,0 +1,7 @@
+<div class="right_news" *ngFor="let lastnews of LastNews">
+    <a routerLink="{{lastnews.link}}">
+        <img src="{{lastnews.img}}" alt="">
+        <span>{{lastnews.time}} წუთის წინ</span>
+        <p>{{lastnews.title}}</p>
+    </a>
+</div>

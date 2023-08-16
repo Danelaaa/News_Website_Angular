@@ -1,0 +1,27 @@
+<div class="main_last_news">
+    <div class="div">
+        <div class="left" *ngFor="let item of MainLastNews">
+            <p>ბოლო <br> სიახლე</p>
+            <a href="{{item.link}}">
+                <img src="{{item.img}}" alt="">
+                <div class="left_title">
+                    <h6>51 SHARES</h6>
+                    <h4>„ცხვირი წავიმტვრიეთ, მაგრამ ვისწავლეთ” –
+                        BEAUTY LAB</h4>
+                </div>
+            </a>
+        </div>
+        <div class="right">
+            <div class="right_top" *ngFor="let items of MainLastNewsRight">
+                <a href="{{items.link}}">
+                    <img src="{{items.img}}" alt="">
+                    <div class="right_title">
+                        <h6>51 SHARES</h6>
+                        <h4>„ცხვირი წავიმტვრიეთ, მაგრამ ვისწავლეთ” –
+                            BEAUTY LAB</h4>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
